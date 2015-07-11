@@ -18,4 +18,7 @@ A*(A-star)アルゴリズムをUnityで可視化してみました
 * 灰 … Closedリストに含まれるマス
 
 ## 謝辞
-最後のビームは [【Unity】ParticleとLineRendererで◯めはめ波を作ろう！](http://qiita.com/kuuki_yomenaio/items/85f0233822ccc5272d1e) の画像をお借りしました
+最後のビームは [【Unity】ParticleとLineRendererで◯めはめ波を作ろう！](http://qiita.com/kuuki_yomenaio/items/85f0233822ccc5272d1e) の画像をお借りしました  
+Copyright (c) 2015 kuuki_yomenaio  
+Released under the MIT license  
+[https://github.com/jake1256/UnityChanHa/blob/master/LICENSE](https://github.com/jake1256/UnityChanHa/blob/master/LICENSE)
