@@ -121,7 +121,7 @@ public class AStar : MonoBehaviour {
 				if (y + dy == -1 || y + dy == fieldSize) { continue; }
 				if (nodes[x + dx, y + dy].block) { continue; }
 
-				moveCost = x * y == 0 ? 1 : Math.Sqrt(2);
+				moveCost = dx * dy == 0 ? 1 : Math.Sqrt(2);
 				nodes[x + dx, y + dy].moveCost = openNodes[x, y].moveCost + moveCost;
 				nodes[x + dx, y + dy].from = new Vector2(x, y);
 				CheckUnique(x + dx, y + dy);
